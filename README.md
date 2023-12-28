@@ -12,7 +12,7 @@ Because this library is for the .Net platform, you need to make sure that you ha
 
 ## Installation
 
-1. At this moment to install this library to your project as a plugin, you need download a build of this library for the desired version of .Net (in folder builds/) and copy the live-charts plugin folder to the addons folder.
+1. At this moment to install this library to your project as a plugin, you need download a build of this library for the desired version of .Net (6, 7 or 8) from builds directory and copy the live-charts plugin folder to the addons folder.
 
 2. Install the following NuGet packages:
 
@@ -108,11 +108,11 @@ public class ViewModel
 
 2. Create a new User Interface scene:
 
-insert screenshoot
+![creating-the-user-scene](https://github.com/Ilnazz/godot-live-charts/assets/24940119/2f2215e8-afd4-4b92-9e95-9b44dd252ea1)
 
 3. Add a CartesianChart to the scene:
 
-insert screenshoot
+![image](https://github.com/Ilnazz/godot-live-charts/assets/24940119/a4ad317d-40a9-4b1f-b7b2-276b2c2955d1)
 
 4. Attach the new script to the newly created scene with the following code:
 
@@ -142,9 +142,15 @@ public partial class Sample : Control
 }
 ```
 
+5. Run the scene:
+
+![image](https://github.com/Ilnazz/godot-live-charts/assets/24940119/de7a3db6-4105-437c-ba63-5e3a0dc539a6)
+
 ## More samples
 
 You can see all official LiveCharts2 samples adapted to Godot in action in the samples/Samples folder. Just run MainScene.
+
+![Demo](https://github.com/Ilnazz/LiveCharts2_Godot/blob/master/Example.gif)
 
 ## Some technical details
 
