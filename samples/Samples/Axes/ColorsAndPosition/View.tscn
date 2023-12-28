@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlsu2vjl77xrs"]
+
+[ext_resource type="Script" path="res://Axes/ColorsAndPosition/View.cs" id="1_lqu0l"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m1klj"]
+bg_color = Color(0, 0, 0, 0)
+
+[node name="View" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+metadata/_edit_use_anchors_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 10
+script = ExtResource("1_lqu0l")
+metadata/_edit_use_anchors_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ToggleButton" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "toggle position"
+
+[node name="NewColorButton" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "new color"
+
+[node name="Chart" type="Panel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_m1klj")
+
+[node name="Canvas" type="Control" parent="VBoxContainer/Chart"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
