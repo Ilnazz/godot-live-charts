@@ -148,7 +148,7 @@ public partial class Sample : Control
 
 ## More samples
 
-You can see all official LiveCharts2 samples adapted to Godot in action in the samples/Samples folder. Just run MainScene.
+You can see all [official LiveCharts2 samples](https://livecharts.dev/docs/wpf/2.0.0-rc2/gallery) adapted to Godot in action in the samples/Samples folder. Just run MainScene.
 
 ![Demo](https://github.com/Ilnazz/LiveCharts2_Godot/blob/master/Example.gif)
 
