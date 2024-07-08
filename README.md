@@ -1,10 +1,13 @@
-# LiveCharts2 for Godot
+# The LiveCharts2 for the Godot
 
-As official web-site says, LiveCharts2 is a data visualization library for .Net that can run across multiple devices and frameworks,
+As the official web-site says, the LiveCharts2 is a data visualization library for the .Net that can run across multiple devices and frameworks,
 It runs under the MIT license (free) and offers a paid package to improve performance and extend features.
 
-LiveCharts2 web-site: https://livecharts.dev
-LiveCharts2 source code: https://github.com/beto-rodriguez/LiveCharts2
+The LiveCharts2 web-site: https://livecharts.dev
+
+The LiveCharts2 source code: https://github.com/beto-rodriguez/LiveCharts2
+
+![Lvc for GodotLiveChartsForGodot](https://github.com/Ilnazz/godot-live-charts/assets/24940119/fa332b34-e964-4649-b5a3-7f734f58e792)
 
 ### Prerequisites
 
